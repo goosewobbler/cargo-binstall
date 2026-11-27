@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.14.3](https://github.com/cargo-bins/cargo-binstall/compare/binstalk-downloader-v0.14.2...binstalk-downloader-v0.14.3) - 2026-11-27
+
+### Added
+
+- suggest `--dns system` when hickory-dns fails to resolve a host ([#2858](https://github.com/cargo-bins/cargo-binstall/pull/2858))
+- use Cargo's http.proxy setting ([#2852](https://github.com/cargo-bins/cargo-binstall/pull/2852))
+
+### Other
+
+- Download the package from the GET that found it ([#2818](https://github.com/cargo-bins/cargo-binstall/pull/2818))
+- Queue rate-limited requests instead of waking them all each window ([#2816](https://github.com/cargo-bins/cargo-binstall/pull/2816))
+- Look up release tags with git ls-refs and GitHub assets without the API ([#2808](https://github.com/cargo-bins/cargo-binstall/pull/2808))
+
 ## [0.14.2](https://github.com/cargo-bins/cargo-binstall/compare/binstalk-downloader-v0.14.1...binstalk-downloader-v0.14.2) - 2026-11-21
 
 ### Added

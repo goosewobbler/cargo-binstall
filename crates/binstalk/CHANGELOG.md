@@ -7,6 +7,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.32.0](https://github.com/cargo-bins/cargo-binstall/compare/binstalk-v0.31.0...binstalk-v0.32.0) - 2026-11-27
+
+### Added
+
+- Download each binary from its own package when pkg-url has `{ bin }` ([#2784](https://github.com/cargo-bins/cargo-binstall/pull/2784))
+- Implement `--branch`, `--tag` and `--rev` for `--git` ([#2844](https://github.com/cargo-bins/cargo-binstall/pull/2844))
+
+### Other
+
+- Detect arm64ec-pc-windows-msvc on Windows ARM64 ([#2842](https://github.com/cargo-bins/cargo-binstall/pull/2842))
+- Share repository lookups and downloads between crates installed together ([#2839](https://github.com/cargo-bins/cargo-binstall/pull/2839))
+- Make Fetcher::find return what it found ([#2851](https://github.com/cargo-bins/cargo-binstall/pull/2851))
+- add cargo-binstall logo to README and docs.rs ([#2787](https://github.com/cargo-bins/cargo-binstall/pull/2787))
+- skip the .crate download when already installed ([#2819](https://github.com/cargo-bins/cargo-binstall/pull/2819))
+- Use the sole top dir of an archive as bin-dir ([#2829](https://github.com/cargo-bins/cargo-binstall/pull/2829))
+- Cache per crate in the fetchers, not in binstalk-git-repo-api ([#2813](https://github.com/cargo-bins/cargo-binstall/pull/2813))
+
 ## [0.31.0](https://github.com/cargo-bins/cargo-binstall/compare/binstalk-v0.30.0...binstalk-v0.31.0) - 2026-11-21
 
 ### Added

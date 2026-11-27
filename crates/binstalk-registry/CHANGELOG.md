@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.14.0](https://github.com/cargo-bins/cargo-binstall/compare/binstalk-registry-v0.13.0...binstalk-registry-v0.14.0) - 2026-11-27
+
+### Added
+
+- share cargo's git registry index clones instead of cloning every run ([#2832](https://github.com/cargo-bins/cargo-binstall/pull/2832))
+
+### Other
+
+- skip the .crate download when already installed ([#2819](https://github.com/cargo-bins/cargo-binstall/pull/2819))
+
 ## [0.13.0](https://github.com/cargo-bins/cargo-binstall/compare/binstalk-registry-v0.12.13...binstalk-registry-v0.13.0) - 2026-11-21
 
 ### Added

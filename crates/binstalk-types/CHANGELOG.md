@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.12.0](https://github.com/cargo-bins/cargo-binstall/compare/binstalk-types-v0.11.0...binstalk-types-v0.12.0) - 2026-11-27
+
+### Other
+
+- Detect arm64ec-pc-windows-msvc on Windows ARM64 ([#2842](https://github.com/cargo-bins/cargo-binstall/pull/2842))
+- Share repository lookups and downloads between crates installed together ([#2839](https://github.com/cargo-bins/cargo-binstall/pull/2839))
+- Hint the exact pkg-url, for a crate's own pkg-url too ([#2814](https://github.com/cargo-bins/cargo-binstall/pull/2814))
+
 ## [0.11.0](https://github.com/cargo-bins/cargo-binstall/compare/binstalk-types-v0.10.8...binstalk-types-v0.11.0) - 2026-11-21
 
 ### Added

@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.19.14](https://github.com/cargo-bins/cargo-binstall/compare/binstalk-manifests-v0.19.13...binstalk-manifests-v0.19.14) - 2026-11-27
+
+### Fixed
+
+- *(binstalk-manifests)* keep trailing `)` in .crates.toml source urls ([#2850](https://github.com/cargo-bins/cargo-binstall/pull/2850))
+
 ## [0.19.13](https://github.com/cargo-bins/cargo-binstall/compare/binstalk-manifests-v0.19.12...binstalk-manifests-v0.19.13) - 2026-11-21
 
 ### Added
